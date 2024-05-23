@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header-img">
+        <div class="header-div1">
+            <nav class="navbar">
+                <h1>ConsciousFood</h1>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#food">Menu</a></li>
+                    <!-- <li><a href="">Category</a></li> -->
+                    <!-- <li><a href="">About</a></li> -->
+                    <li><a href="">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-div2">
+            <h1>Eat Right Food</h1>
+            <p>Eat Healthy Food, It is Good For Your Health</p>
+            <span class="span1"><a href="#food">Menu</a></span>
+        </div>
+        <!-- hamburger-menu -->
+        <div class="hamburger-menu">
+            <input type="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="sec-div1">
+            <div class="div1-text">
+                <p class="p1">About Us</p>
+                <h1>We've been Making Healthy Food for Last 10 Years</h1>
+                <p class="p2">A healthy eating plan includes a variety of foods from different food groups, and limits added sugars, sodium, saturated fats, trans fats, and cholesterol. It also stays within your daily calorie needs.Many foods are both healthy and tasty. By filling your plate with fruits, vegetables, quality protein sources, and other whole foods, you’ll have meals that are colorful, versatile, and good for you.</p>
+            </div>
+            <div class="div1-img">
+                <img src="../Project2/Images/pancakes.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id="food">
+        <h2>Types Of Food</h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src="./Images/fruits.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Fruits</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="span2" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="food-type fruit">
+                    <div class="img-container">
+                        <img src="./Images/vegetables.jpg" alt="">
+                        <div class="img-content">
+                            <h3>Vegetables</h3>
+                            <a href="https://en.wikipedia.org/wiki/Vegetable" class="span2" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grain">
+                <div class="food-type fruit">
+                    <div class="img-container">
+                        <img src="./Images/grains.jpg" alt="">
+                        <div class="img-content">
+                            <h3>Grains</h3>
+                            <a href="https://en.wikipedia.org/wiki/Grain" class="span2" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Food Menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/green salad.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Green Salad</h2>
+                    <p>Filled with goodness of fresh veggies</p>
+                    <p class="food-price">Price: &#8377; 199</p>
+                    <button class="btn addToCartButton" data-item="Green Salad" data-price="199">Add</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/tomato soup.jpg" alt="">
+                </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Tomato Soup</h2>
+                        <p>Taste of rich tomatoes and coriander</p>
+                        <p class="food-price">Price: &#8377;149</p>
+                        <button class="btn addToCartButton" data-item="Tomato Soup" data-price="149">Add</button>
+                    </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/badam milkshake.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Badam Milkshake</h2>
+                    <p>Get sugar-free almond milkshake</p>
+                    <p class="food-price">Price: &#8377;99</p>
+                    <button class="btn addToCartButton" data-item="Badam Milkshake" data-price="99">Add</button>
+                </div>
+                </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/paneer uttapam.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Paneer Uttapam</h2>
+                    <p>Delicious and healthy paneer uttapam</p>
+                    <p class="food-price">Price: &#8377;119
+                    </p>
+                    <button class="btn addToCartButton" data-item="Paneer Uttapam" data-price="119">Add</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/banana kheer.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Banana Kheer</h2>
+                    <p>Taste banana & rose in one dessert</p>
+                    <p class="food-price">Price: &#8377;169</p>
+                    <button class="btn addToCartButton" data-item="Banana Kheer" data-price="169">Add</button>
+                </div>
+            </div>
+            
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/corn palak khichdi.jpg" alt="" class="fit">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Corn Palak Khichdi</h2>
+                    <p>Good for health at all time</p>
+                    <p class="food-price">Price: &#8377;89</p>
+                    <button class="btn addToCartButton" data-item=" Corn Palak Khichdi" data-price="89">Add</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/millet curd rice.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Millet Curd Rice</h2>
+                    <p>Get healthy millet curd rice</p>
+                    <p class="food-price">Price: &#8377;89</p>
+                    <button class="btn addToCartButton" data-item="Millet Curd Rice" data-price="89">Add</button>
+                </div>
+            </div>
+            
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/protein bhel.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Protein Bhel</h2>
+                    <p>Get yummy Bhel at doorsteps</p>
+                    <p class="food-price">Price: &#8377;69
+                    </p>
+                    <button class="btn addToCartButton" data-item="Protein Bhel" data-price="69">Add</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/vegetable dosa.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Vegetable Dosa</h2>
+                    <p>Richness of south-indian food</p>
+                    <p class="food-price">Price: &#8377;139</p>
+                    <button class="btn addToCartButton" data-item="Vegetable Dosa" data-price="139">Add</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./Images/veg pulao.jpg" alt="">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Veg Pulao</h2>
+                    <p>Eat delicious pulao at home</p>
+                    <p class="food-price">Price: &#8377;249</p>
+                    <button class="btn addToCartButton" data-item="Veg Pulao" data-price="249">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2 class="testimonials-title">What our Customers Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">"I recently switched my online meal ordering platform from a big company that was taking 13% of every order to your free online ordering platform. I am pleased with your service.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./Images/person1.jpg" alt="">
+                    </div>
+                    <p class="customer-name">Aakash Grover</p>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Being able to order healthy food from your comfort and pay for it online - is the main benefit I looked for, and got, from HealthyBites. </p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./Images/person2.jpg" alt="">
+                    </div>
+                    <p class="customer-name">Sneha Thapar</p>
+                </div>
+            </div>
+
+
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">HealthyBiytes has helped me stay with the times and compete with some of the big boys around me and given me enough control when needed to adjust anything on the menu.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./Images/person3.jpg" alt="">
+                    </div>
+                    <p class="customer-name">Kartikay Awasthi</p>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------------------->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l05_he3Ux58?si=fyEJPaE8gzUd2FGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-image">
+                <img src="./Images/restaurant.jpg" class="restaurant" alt="">
+            </div>
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" name="" id="" placeholder="Name" data-name="">
+                <input type="email" name="" id="" placeholder="e-mail">
+                <textarea name="" rows="6" cols="55" placeholder="Type Your Text Here.."></textarea>
+                <a href="" class="submit">Submit</a>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <div class="container2">
+            <button id="cartButton">
+                <img src="./Images/cart.png" alt="">
+                <span class="quantity">0</span>
+            </button>
+            <div id="cartSlider" class="cart-slider">
+                <h2>Cart Items</h2>
+                <div class="amount">
+                    <h1>Total Amount: </h1>
+                    <h1> &#8377;</h1>
+                    <h2 class="charges"> 0</h2>
+                </div>
+                <ul id="cartItems">
+                    <!-- <li>Green Salad</li>
+                    <li>Badam Milkshake</li>
+                    <li>Tomato Soup</li> -->
+                </ul>
+            </div>
+        </div>
+    </aside>
+   
+</body>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="home.js"></script>
+</html>
